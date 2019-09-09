@@ -1,20 +1,62 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
 <html>
   <head>
     <title>Antonio López Higuera</title>
+    <link rel="icon" type="image/png" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+      header{
+        background: green;
+      }
+    </style>
+
   </head>
   <body>
-    <header>
+    <header style="color: rebeccapurple; background: gray">
       <nav>
         <ul>
-          <li> <a>UL Item 1</a> </li>
-          <li>UL Item 2</li>
-          <li>UL Item 3</li>
+          <li> <a href="#portfolio">UL Item 1 </a></li>
+          <li> <a href="#experience"> UL Item 2 </a></li>
+          <li> <a href="#contact"> UL Item 3 </a></li>
         </ul>
       </nav>
     </header>
-    <section>Section 1</section>
-    <section>Section 2</section>
-    <section>Section 3</section>
+    <section>
+      <h1> Hello, <strong>Stranger</strong>, I am Antonio, Android Developer</h1>
+      <img src="tile-wide.png" width="500">
+    </section>
+    <section id="portfolio">
+      <article>
+        <h2> Portfolio</h2>
+        <h3>Platzi Video</h3>
+        <h6>React Native</h6>
+        <p><small><strong>Fecha:</strong> 09/09/2019</small></p>
+        <p><smal><strong>Puedes verlo en:</strong> <a>aquí</a></smal></p>
+        <img src="tile-wide.png">
+      </article>
+    </section>
+    <section id="experience">
+      <h2>Más sobre mi experiencia</h2>
+      <article>
+        <figure>
+          <img src="tile-wide.png">
+        </figure>
+        <h3>Conferencia ITESCA</h3>
+        <p>El evento anual de la carrera de Ingeniería en Sistemas Computacionales dónde se exponen los proyectos más interesantes realizados
+        durante el semestre anterior y actual. Además, se convocan a conferencistas importantes de la región.</p>
+        <a>Ver más</a>
+      </article>
+    </section>
+  <section id="contact">
+    <form action="/suscripcion/">
+      <h3>¿Creamos algo juntos?</h3>
+      <input type="text" placeholder="Déjame tu email" id="contact.email">
+      <button>Enviar</button>
+    </form>
+  </section>
+  <footer>
+
+  </footer>
   </body>
 </html>
